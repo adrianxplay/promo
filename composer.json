@@ -1,0 +1,23 @@
+{
+    "name": "adrianxplay/promo",
+    "authors": [
+        {
+            "name": "Adrian Piña",
+            "email": "adrianxplay@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "Adrianxplay\\Promo\\": "src/"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Adrianxplay\\Promo\\PromoServiceProvider"
+        ],
+        "aliases": {
+          "Promo": "Adrianxplay\\Promo\\PromoFacade"
+        }
+      }
+    }
+}
