@@ -1,14 +1,20 @@
 {
     "name": "adrianxplay/promo",
+    "description": "promo",
+    "type": "package",
+    "license": "MIT",
     "authors": [
         {
             "name": "Adrian Piña",
             "email": "adrianxplay@gmail.com"
         }
     ],
+    "minimum-stability": "alpha",
     "require": {},
     "autoload": {
-      "Adrianxplay\\Promo\\": "src/"
+      "psr-4": {
+        "Adrianxplay\\Promo": "src/"
+      }
     },
     "extra": {
       "laravel": {
